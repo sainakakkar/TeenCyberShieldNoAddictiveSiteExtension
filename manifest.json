@@ -1,0 +1,41 @@
+{
+  "manifest_version": 3,
+  "name": "Teen Cyber Shield – No More Addictive Sites",
+  "version": "1.0.0",
+  "description": "CyberShield for Teenagers Upgraded for Year-2023 in Jan'2023:: Author: Saina Kakkar ",
+  "icons": {
+    "16": "cybershield/icon16.jpeg",
+    "48": "cybershield/icon48.jpeg",
+    "128": "cybershield/icon128.jpeg"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.facebook.com/*",
+        "https://www.netflix.com/*",
+	"https://www.gambling.com/*",
+	"https://www.silkroad.com/*",
+	"https://www.blackhatworld.com/*",
+	"https://www.darknetmarkets.org/*",
+	"https://www.whisper.com/*",
+	"https://www.omegle.com/*",
+	"https://www.chatroulette.com/*",
+	"https://www.chaturbate.com/*",
+	"https://www.craigslist.org/*",
+	"https://www.adultfriendfinder.com/*",
+	"https://www.ashleymadison.com/*",
+	"https://www.fling.com/*",
+	"https://www.seekingarrangement.com/*",
+	"https://www.snapsext.com/*",
+	"https://www.theeroticreview.com/*",
+	"https://www.yelp.com/*"
+      ],
+      "css": [
+        "css/style.css"
+      ]
+    }
+  ],
+  "web_accessible_resources": [
+    "css/style.css"
+  ]
+}

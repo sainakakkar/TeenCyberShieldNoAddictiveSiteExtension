@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  color: #fff;
+  font-family: monospace;
+  font-size: 5vw;
+  font-weight: bold;
+  text-align: center;
+}
+
+html {
+  background: radial-gradient(15.34% 50% at 50% 50%, #2D9AFF 0%, #41DEE8 0%, #ff2d3b 50%);
+  height: 100vh;
+  padding: 50px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+html::before {
+  content: '!! Teen Cyber Shield Activated Author: Saina Kakkar!!';
+}
+
+body {
+  display: none !important;
+}
